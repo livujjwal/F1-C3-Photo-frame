@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nv{
+    width: 100%;
+}
+.scrollable-div{
+    width: 100%;
+}
+.pic-1{
+    width: 100%;
+    height: 120vh;
+}
+.pic{
+    width: 420px;
+    height: 300px;
+}
+.frame-1{
+    margin: 60px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.f1{
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frame-2{
+    margin: 5px;
+    background-color: brown;
+}
+.container{
+    background-color:transparent;
+    height: 100%;
+    width: 100vw;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(8,200px);
+    grid-template-areas:
+    "a a a a w w s s p p p p" 
+    "a a a a w w s s p p p p"
+    "a a a a t t z z q q q q" 
+    "a a a a t t z z q q q q"
+    "ac ac ac ac c c c c c c c c"
+    "ac ac ac ac c c c c c c c c"
+    "ac ac ac ac c c c c c c c c"
+    "ac ac ac ac c c c c c c c c";
+
+}
+.f2-r1-left{
+    grid-area: a;
+    background-image: url("./assets/left-1.jpg");
+    
+}
+.smal-1{
+    grid-area: w;
+    background-image: url("./assets/s-1.jpg");
+}
+.smal-2{
+    grid-area: s;
+    background-image: url("./assets/s-2.jpg");
+}
+.smal-3{
+    grid-area: t;
+    background-image: url("./assets/s-3.jpg");
+}
+.smal-4{
+    grid-area: z;
+    background-image: url("./assets/s-4.jpg");
+}
+.med-1{
+    grid-area: p;
+    background-image: url("./assets/m-1.jpg");
+}
+.med-2{
+grid-area: q;
+background-image: url("./assets/m-2.jpg");
+}
+.f2-r2-left{
+    grid-area: ac;
+    background-image: url("./assets/left-2.jpg");
+}
+.f2-r2-right{
+    grid-area: c;
+    background-image: url("./assets/right.jpg");
+}
+.card-row{
+    width: 90vw;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.card-1{
+    
+    width: 420px;
+    height: 200px;
+}
+
+.image{
+    width: 420;
+    height: 300px;
+}
+.btt{
+    width: 140px;
+    height: 50px;
+}
+.down>.btt{
+    width: 120px;
+    height: 40px;
+}
+.
+
+@media screen and (max-width: 991) and (min-width: 767) {
+ 
+.nv{
+    width: 100%;
+}
+
+.scrollable-div{
+    width: 100%;
+}
+.pic-1{
+    width: 100%;
+    height: 120vh;
+}
+ 
+}
+ 
+@media screen and (max-width: 768){
+    
+.scrollable-div{
+    width: 100%;
+}
+.pic-1{
+    width: 100%;
+    height: 120vh;
+}
+.frame-1{
+    
+}
+    .card-1{
+        width: 400px;
+        height: 300px;
+     }
+     .image{
+        width: 400px;
+        height: 300px;
+    }
+}

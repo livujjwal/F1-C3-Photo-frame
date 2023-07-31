@@ -139,7 +139,7 @@ background-image: url("./assets/m-2.jpg");
 
 @media screen and (max-width: 1300px) and (min-width: 991px) {
     .pic{
-        width: 650px;
+        width: 450px;
         height: 300px;
     } 
     .card-row{
@@ -160,7 +160,7 @@ background-image: url("./assets/m-2.jpg");
 }
 @media screen and (max-width: 997px) and (min-width: 767px) {
     .pic{
-        width: 650px;
+        width: 450px;
         height: 300px;
     } 
     
